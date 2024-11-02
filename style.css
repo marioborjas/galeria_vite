@@ -1,0 +1,28 @@
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px; 
+  max-width: 900px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.imagen {
+  text-align: center;
+}
+
+.imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.imagen h3 {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.imagen p {
+  font-size: 0.9rem;
+  color: #666;
+}
